@@ -1,7 +1,7 @@
 {
   "name": "WaviXMLMapper",
   "version": "0.1.0",
-  "description": "watch and append iXML fole to Final Cut Pro X Wav files.",
+  "description": "Watch and Append iXML fole to Final Cut Pro X Wav files.",
   "main": "main.js",
   "types": "types.d.ts",
   "scripts": {
@@ -32,7 +32,9 @@
   },
   "author": "taku-o <mail@nanasi.jp> (https://nanasi.jp/)",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "fcpx-audio-role-encoder": "^0.1.4"
+  },
   "devDependencies": {
     "@types/mocha": "^5.2.6",
     "@types/node": "^10.14.5",
